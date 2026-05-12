@@ -1,0 +1,255 @@
+.bona-nova-regular {
+  font-family: "Bona Nova", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bona-nova-bold {
+  font-family: "Bona Nova", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bona-nova-regular-italic {
+  font-family: "Bona Nova", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.mate-regular {
+  font-family: "Mate", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mate-regular-italic {
+  font-family: "Mate", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#title{
+  color: #285A48;
+}
+
+
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: #091413 !important;
+}
+
+#logo{
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  margin-right: 30px;
+}
+
+#me{
+  border-radius: 30px;
+  box-shadow: 15px 15px 10px black;
+  width: 250px;
+}
+
+#hero{
+  background-color: #B0E4CC;
+  color: #285A48;
+}
+
+.nav-item{
+  background-color: #285A48;
+  border-radius: 5px;
+}
+
+#ct_but{
+  background-color: #285A48;
+  border-radius: 5px;
+  color: #B0E4CC;
+}
+
+#pr_but{
+  background-color: #B0E4CC !important;
+  
+}
+
+#about{
+  color: #091413 !important;
+  text-align: left;
+}
+
+.lead{
+  color: #285A48 !important;
+}
+
+.insta_icon{  
+  background-color: white;
+  border-radius: 5px;
+}
+
+
+
+/* Palette Variables */
+:root {
+  --deep-anchor: #091413;
+  --forest-green: #285A48;
+  --muted-teal: #408A71;
+  --mint-mist: #B0E4CC;
+}
+
+/* Base Card Styling for Dark Theme */
+.card-dark-custom {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid var(--muted-teal) !important;
+    border-radius: 12px;
+}
+
+.header-subtle {
+    background-color: rgba(176, 228, 204, 0.1) !important;
+    border-bottom: 1px solid var(--muted-teal) !important;
+    color: var(--mint-mist) !important;
+}
+
+/* Wedding Card Highlight */
+.card-wedding-highlight {
+    background-color: rgba(40, 90, 72, 0.15) !important;
+    border: 2px solid var(--mint-mist) !important;
+    border-radius: 12px;
+    transform: scale(1.02); /* Makes it stand out slightly */
+}
+
+.header-wedding {
+    background-color: var(--forest-green) !important;
+    color: var(--mint-mist) !important;
+    border-bottom: 1px solid var(--mint-mist) !important;
+}
+
+/* Typography Fixes */
+.card-title {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.price-decimal {
+    color: var(--mint-mist) !important;
+    font-size: 1.2rem;
+}
+
+.text-mint {
+    color: var(--mint-mist) !important;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.card-body li {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 8px 0;
+}
+
+/* Wedding Button */
+.btn-wedding {
+    background-color: var(--mint-mist);
+    color: var(--deep-anchor);
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+}
+
+.btn-wedding:hover {
+    background-color: #ffffff;
+    color: var(--forest-green);
+}
+
+/* Palette Variables (if not already in your file) */
+:root {
+  --deep-anchor: #091413;
+  --forest-green: #285A48;
+  --muted-teal: #408A71;
+  --mint-mist: #B0E4CC;
+}
+
+/* 1. Header Border */
+.border-bottom-custom {
+    border-bottom: 1px solid rgba(176, 228, 204, 0.2) !important;
+}
+
+/* 2. Brand Title (The Name) */
+.brand-text {
+    color: var(--mint-mist) !important;
+    letter-spacing: 1px;
+}
+
+/* 3. Logo Tint (Optional: makes your SVG match the theme) */
+.logo-tint {
+    filter: invert(89%) sepia(16%) saturate(654%) hue-rotate(103deg) brightness(95%) contrast(89%);
+}
+
+/* 4. Navigation Links */
+.nav-link-custom {
+    color: #ffffff !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link-custom:hover {
+    color: var(--mint-mist) !important;
+    background-color: rgba(40, 90, 72, 0.2);
+}
+
+/* 5. Active Link (The Forest Green Pill) */
+.active-pill {
+    background-color: var(--forest-green) !important;
+    color: var(--mint-mist) !important;
+    font-weight: bold;
+}
+
+/* --- Contact Page Specific Styles --- */
+
+/* 1. Center the content vertically if needed */
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+/* 2. Style the WhatsApp Button */
+.btn-wedding {
+    background-color: var(--mint-mist);
+    color: var(--deep-anchor);
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-wedding:hover {
+    background-color: #ffffff;
+    color: var(--forest-green);
+    transform: translateY(-3px); /* Subtle lift effect */
+    box-shadow: 0 5px 15px rgba(176, 228, 204, 0.3);
+}
+
+/* 3. Text Formatting */
+.uppercase {
+    text-transform: uppercase;
+}
+
+.letter-spacing-1 {
+    letter-spacing: 1.5px;
+}
+
+.text-mint {
+    color: var(--mint-mist) !important;
+}
+
+/* 4. Link hover states for Email/Phone */
+.card-body a.text-white:hover {
+    color: var(--mint-mist) !important;
+    text-decoration: underline !important;
+}
+
+.insta_icon:hover {
+    opacity: 1;
+}
